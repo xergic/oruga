@@ -14,7 +14,7 @@
             :required="required"
             :name="name"
             :value="nativeValue">
-        <span :class="labelClasses"><slot/></span>
+        <span :class="labelClasses"><slot checked="isChecked"/></span>
     </label>
 </template>
 
